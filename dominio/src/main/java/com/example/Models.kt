@@ -1,8 +1,7 @@
-package com.example.dominio
-
+package com.example
 
 /**
- * Character schema
+ * estructura de caracteres
  */
 data class Character(
     val id: Int,
@@ -13,29 +12,25 @@ data class Character(
     val gender: String,
     val origin: Location,
     val location: Location,
-    val image: String?,
-    val episodeList: ArrayList<String>,
-    val url: String,
-    val created: String,
+    val image: String,
+    val episodesIds: List<Int>,
 )
 
 /**
- * Location schema
+ * estructura de localización
  */
 data class Location(
+    val id: Int,
     val name: String,
-    val url: String,
 )
 
 /**
- * Episode schema
+ * estructura de episodios
  */
 data class Episode(
     val id: Int,
     val name: String,
     val airDate: String,
     val episode: String,
-    val characters: List<String>,
-    val url: String,
-    val created: String,
+    val charactersIds: List<Int>,
 )

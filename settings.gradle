@@ -15,3 +15,5 @@ dependencyResolutionManagement {
 rootProject.name = "rickandmortymvvm"
 include ':app'
 include ':dominio'
+include ':framework:api'
+include ':data'
