@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">rickandmortymvvm</string>
+
+    <string name="character_list">Lista de personajes</string>
+    <string name="character_image">Imagen de personaje</string>
+    <string name="next">next</string>
+    <string name="page">Pagina</string>
+    <string name="before">antes</string>
+    <string name="info_page">Info pagina</string>
 </resources>

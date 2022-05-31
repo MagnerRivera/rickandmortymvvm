@@ -1,8 +1,8 @@
 package com.example.api
 
 import android.net.Uri
-import com.example.api.retrofit.*
 import com.example.*
+import com.example.api.retrofit.*
 
 internal fun PageCharactersResponseServer.toDomain() = PageCharacters(
     info = info?.toDomain()!!,
